@@ -1,11 +1,11 @@
+# frozen_string_literal: true
+
 class PostsController < ApplicationController
-  before_action :set_post!, only: [:show, :edit, :update]
+  before_action :set_post!, only: %i[show edit update]
 
-  def show
-  end
+  def show; end
 
-  def edit
-  end
+  def edit; end
 
   def update
     @post.update(post_params)
@@ -13,7 +13,7 @@ class PostsController < ApplicationController
     redirect_to post_path(@post)
   end
 
-  private
+private
 
   def post_params
     params.permit(:category, :content, :title)

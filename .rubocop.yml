@@ -1,11 +1,12 @@
+
 AllCops:
   TargetRubyVersion: 2.5
   Exclude:
     - 'spec/*'
     - 'spec/**/*'
     - 'vendor/**/*'
-    - 'db/schema.rb'
-    - 'config/*'
+    - 'db/*'
+    - 'bin/*'
     - 'config/**/*'
 
 Layout/AccessModifierIndentation:

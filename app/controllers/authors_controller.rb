@@ -1,10 +1,11 @@
+# frozen_string_literal: true
+
 class AuthorsController < ApplicationController
   def show
     @author = Author.find(params[:id])
   end
 
-  def new
-  end
+  def new; end
 
   def create
     @author = Author.create!(author_params)
@@ -12,7 +13,7 @@ class AuthorsController < ApplicationController
     redirect_to author_path(@author)
   end
 
-  private
+private
 
   def author_params
     params.permit(:email, :name)
