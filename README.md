@@ -37,4 +37,8 @@ To complete this lab, you will need to:
 1. Change `AuthorsController#create` to re-render the form if the new author is invalid.
 1. Change `PostsController#update` to re-render the form if the updated post is invalid.
 
+## Does this need an update?
+
+Please open a [GitHub issue](https://github.com/learn-co-curriculum/phrg-validations-in-controller-actions-rails-lab/issues) or [pull-request](https://github.com/learn-co-curriculum/phrg-validations-in-controller-actions-rails-lab/pulls). Provide a detailed description that explains the issue you have found or the change you are proposing. Then "@" mention your instructor on the issue or pull-request, and send them a link via Connect.
+
 <p data-visibility='hidden'>PHRG Validations In Controller Actions Lab</p>
